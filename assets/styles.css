@@ -1,0 +1,115 @@
+body {
+    font-family: Avenir-Next,Roboto,sans-serif;
+    font-size: 16px;
+}
+
+.welcome-div {
+  background-image: url(https://i.imgur.com/ksqOx5F.jpg); 
+  background-repeat: no-repeat; 
+  background-position: center; 
+  background-size: cover;
+}
+.welcome-div:hover {
+  background: linear-gradient( #000000b3, #000000b3), url(https://i.imgur.com/ksqOx5F.jpg); 
+  background-repeat: no-repeat; 
+  background-position: center; 
+  background-size: cover;
+}
+
+
+.flex-row-container {
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+ justify-content: center;
+}
+.flex-row-container > .flex-row-item {
+ flex: 1 1 30%; /*grow | shrink | basis */
+ height: 100px;
+}
+.flex-row-container > .flex-row-item-white {
+ flex: 1 1 30%; /*grow | shrink | basis */
+ height: 100px;
+}
+.flex-row-container > .flex-row-item-table {
+ flex: 1 1 50%; /*grow | shrink | basis */
+ height: 100px;
+}
+.flex-row-item {
+ background-color: #4992ca;
+ color: white;
+}
+.flex-row-item-white {
+ background-color: white;
+ color: black;
+}
+
+
+
+td {
+    color:#8a8a8a;
+}
+
+
+.card {
+    background-color: white;
+    width: 15%;
+    padding: 0;
+    padding-bottom: 20px;
+    border: 2px #F0F0F0 solid;
+}
+
+.cardback {
+  background-color: #F0F0F0;
+  border-top: 20px #4992ca solid;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+}
+
+.gencard {
+    width: 400px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    margin: 8px;
+    line-height: 24px;
+  
+}
+  
+.card-sub-heading {
+    font-weight: 700;
+    height: 45px;
+    color: #3c3333;
+    text-align: left;
+    font-size: 2rem;
+    line-height: 1.2;
+}
+  
+.card-body {
+    padding: 10px;
+}
+  
+.card-header {
+    margin-bottom: 0;
+    padding-left: 10px;
+    border-bottom: 1px rgba(0, 0, 0, 0.125) solid;
+    border-top: 16px #4992ca solid;
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+.card-text {
+    font-weight: 600;
+}
+
+.fleximg {
+    border-radius: 50%;
+	height: 150px;
+	width: 150px;
+	flex-shrink: 1;
+}
+
+.pokemon-logo {
+	height: 70px;
+	width: 200px;
+}
